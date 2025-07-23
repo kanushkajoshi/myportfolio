@@ -4,16 +4,16 @@ This is a personal portfolio website showcasing my projects, skills, experience,
 
 ## 📁 Project Structure
 
-index.html
-├── css/
-│ ├── style.css
-│ └── responsive.css
-├── js/
-│ ├── main.js
-│ └── animations.js
-├── assets/
-│ └── images/
-│ └── profile.jpg
+index.html<br>
+├── css/<br>
+│ ├── style.css<br>
+│ └── responsive.css<br>
+├── js/<br>
+│ ├── main.js<br>
+│ └── animations.js<br>
+├── assets/<br>
+│ └── images/<br>
+│ └── profile.jpg<br>
 
 
 ## 🚀 Features
