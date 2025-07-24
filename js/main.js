@@ -58,21 +58,10 @@ contactForm.addEventListener('submit', function(e) {
   const originalText = button.innerHTML;
   button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
   button.disabled = true;
-
-  // Show thank you message after submit
-  let thankYouMsg = document.querySelector('.thank-you-message');
-  if (!thankYouMsg) {
-    thankYouMsg = document.createElement('div');
-    thankYouMsg.className = 'thank-you-message';
-    thankYouMsg.style.cssText = 'margin-top:1.5rem;color:var(--accent);font-weight:600;text-align:center;';
-    contactForm.parentNode.appendChild(thankYouMsg);
-  }
-
   setTimeout(() => {
     button.innerHTML = originalText;
     button.disabled = false;
-    thankYouMsg.textContent = 'Thank you for sending your message!';
-  }, 1200);
+  }, 3000);
 });
 
 // Typing effect in hero section
